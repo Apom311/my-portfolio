@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Project Movie Night",
+    "image": "Image Link",
+    "github": "github link",
+    "deploy": "deployed link",
+    "topics": "used technologies"
+  },
+  {
+    "id": 2,
+    "name": "Unicorn Blog",
+    "image": "Image Link",
+    "github": "github link",
+    "deploy": "deployed link",
+    "topics": "used technologies"
+  },
+  {
+    "id": 3,
+    "name": "third example minimum",
+    "image": "Image Link",
+    "github": "github link",
+    "deploy": "deployed link",
+    "topics": "used technologies"
+  }
+]
