@@ -8,7 +8,7 @@ function About() {
         <p>A couple of short messages to get the ball rolling</p>
         <p>
           Reference to something actually useful
-          <a href="#/resume" className="link">
+          <a href="#resume" className="link">
             resume
           </a>
         </p>
