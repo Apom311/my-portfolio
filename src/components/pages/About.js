@@ -3,14 +3,15 @@ import React from "react";
 function About() {
   return (
     <div>
-      <section>
+      <section id="about-section">
         <h1>about: Ryan Kinslow</h1>
-        <p>A couple of short messages to get the ball rolling</p>
         <p>
-          Reference to something actually useful
-          <a href="#resume" className="link">
-            resume
-          </a>
+          Looking for a change in carrer path, Graduate of the Vanderbilt
+          Fullstack Bootcamp 11/22.
+        </p>
+        <p>
+          Fresh Software Developer, experienced in HTML, CSS, JavaScript, React,
+          MongoDB, but most importantly, a desire to learn more.
         </p>
       </section>
     </div>

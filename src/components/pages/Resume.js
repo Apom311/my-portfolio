@@ -8,7 +8,6 @@ function Resume() {
         <hr></hr>
         <div className="row justify-content-center" id="resume">
           <div className="mt-5 pl-5 pr-5">
-            Filler content
             <p className="mt-5">
               <a href="https://www.linkedin.com/in/ryan-kinslow-b86177240/">
                 <img
@@ -31,7 +30,7 @@ function Resume() {
         </div>
 
         <div className="justify-content-center mt-5">
-          <div id="front-back">
+          <div class="front-back">
             <h2>front end experience</h2>
             <p>
               HTML, CSS (Bootstrap, Foundation, Bulma), JavaScript, jQuery,
@@ -39,7 +38,7 @@ function Resume() {
             </p>
           </div>
 
-          <div id="front-back" className="mt-5">
+          <div class="front-back" className="mt-5">
             <h2>back end experience</h2>
             <p>
               Node.js, Express.js, SQL mySQL, Sequelize, NoSQL (MongoDB,

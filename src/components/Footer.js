@@ -17,7 +17,7 @@ function Footer() {
           className="icon"
         />
       </a>
-      <a href="https://twitter.com/shining_dragonz">
+      <a href="https://twitter.com/actual_dragonz">
         <img
           src="https://img.icons8.com/color/48/000000/twitter.png"
           alt="Twitter"
