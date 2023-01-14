@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Project Movie Night",
-    "image": "../assets/movie-night.png",
+    "image": "../../assets/movie-night.png",
     "github": "https://github.com/Apom311/movie-project",
     "deploy": "https://apom311.github.io/movie-project/",
     "topics": "html javascript css"

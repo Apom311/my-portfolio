@@ -13,7 +13,9 @@ function Portfolio() {
           {portfolio.map((project) => (
             <Projects
               key={project.id}
-              image={project.image}
+              // image={project.image}
+              image={`${project.image}`}
+              // image={require("../../assets" + project.image)}
               name={project.name}
               github={project.github}
               deploy={project.deploy}

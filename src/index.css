@@ -60,6 +60,8 @@ h1 {
   display: flex;
   background: var(--pine);
   background-color: var(--pine);
+  margin-top: 0px;
+  height: 2.5rem;
 }
 
 .nav-item {
@@ -137,6 +139,9 @@ h1 {
 #footer {
   padding: 5px;
   margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .icon {
@@ -207,4 +212,9 @@ h1 {
 
 .mt-5 {
   background-color: var(--turquoise);
+}
+
+#content-wrap {
+  position: relative;
+  min-height: 100vh;
 }
