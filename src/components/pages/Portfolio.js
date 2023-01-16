@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "../Project";
-import portfolio from "../Portfolio.json";
+import portfolioData from "../Data";
 
 function Portfolio() {
   return (
@@ -10,7 +10,7 @@ function Portfolio() {
           <h1 className="title">Portfolio: Ryan K</h1>
         </div>
         <div id="data">
-          {portfolio.map((project) => (
+          {portfolioData.map((project) => (
             <Projects
               key={project.id}
               // image={project.image}

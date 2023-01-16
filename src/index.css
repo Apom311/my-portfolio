@@ -75,7 +75,29 @@ h1 {
   background: var(--pine);
 }
 
+.card img {
+  display: block;
+  height: 300px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+}
+
 .card {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 20px;
+  margin-bottom: 5px;
+  height: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .card {
   background-color: var(--pale);
   border-radius: 5px;
   height: 400px;
@@ -83,6 +105,8 @@ h1 {
   position: relative;
   width: 400px;
   box-shadow: 0 2px 2px var(--gold), 0 6px 12px var(--gold);
+  display: flex;
+  flex-direction: column;
 }
 
 .card .img-container {
@@ -94,7 +118,9 @@ h1 {
 }
 
 .card .img-container img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
   padding: 25px;
   margin-bottom: 20px;
   background-color: var(--berry);
@@ -106,7 +132,9 @@ h1 {
   color: var(--gold);
   font-weight: bold;
   text-align: center;
-}
+  display: flex;
+  flex-direction: column;
+} */
 
 #project-icon {
   background-color: var(--pine);
