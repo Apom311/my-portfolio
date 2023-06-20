@@ -1,5 +1,5 @@
 import React from "react";
-
+//this page is no longer necessary, if it stays unnecessary it will be deleted.
 function Resume() {
   return (
     <div>
@@ -17,9 +17,9 @@ function Resume() {
               </a>
             </p>
             <p>
-              Download my full{" "}
+              Check out my{" "}
               <a
-                href="https://github.com/Apom311/my-portfolio/raw/main/src/assets/resume-full.pdf"
+                href="https://1drv.ms/w/s!AnXyNyuogRqznC-R2b4BIb5O7uFr?e=1cUSvz"
                 className="link"
               >
                 resume

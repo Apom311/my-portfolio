@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 
 function About() {
   return (
@@ -14,6 +15,7 @@ function About() {
           MongoDB, but most importantly, a desire to learn more.
         </p>
       </section>
+      <Contact />
     </div>
   );
 }

@@ -1,17 +1,5 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
-
-// function Navigation(props) {
-//   return (
-//     <div className="row navigation" id="navigation">
-//       <NavLink to="/about/">About Me</NavLink>
-//       <NavLink to="/portfolio/">Portfolio</NavLink>
-//       <NavLink to="/contact/">Contact</NavLink>
-//       <NavLink to="/resume/">Resume</NavLink>
-//     </div>
-//   );
-// }
-
+//setting aside seperate contact and resume pages for simplicity
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="navigation">
@@ -24,7 +12,7 @@ function Navigation({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
@@ -32,7 +20,7 @@ function Navigation({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#portfolio"
@@ -44,7 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -52,7 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }
