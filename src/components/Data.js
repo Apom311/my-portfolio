@@ -5,7 +5,7 @@ const portfolioData = [
     image: require("../assets/movie2.png"),
     github: "https://github.com/Apom311/movie-project",
     deploy: "https://apom311.github.io/movie-project/",
-    topics: "html, basic javascript, css",
+    topics: "html, basic javascript, css, API's",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const portfolioData = [
     image: require("../assets/unicorn-blog.png"),
     github: "https://github.com/Apom311/social-Unicorn",
     deploy: "https://vast-mesa-21873.herokuapp.com/",
-    topics: "MVC layout, handlebars, faker",
+    topics: "MVC layout (Model View Controller), handlebars, faker",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const portfolioData = [
     image: require("../assets/wellness.png"),
     github: "https://github.com/Apom311/wellness-app",
     deploy: "https://peaceful-basin-12734.herokuapp.com/",
-    topics: "React, MongoDB, ",
+    topics: "MERN--MongoDB, Express, React, Node, ChartJS",
   },
 ];
 

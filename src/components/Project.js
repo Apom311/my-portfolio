@@ -8,6 +8,7 @@ function Projects(props) {
       </div>
       <div className="content">
         <p className="title">{props.name}</p>
+        <p id="topics">({props.topics})</p>
         <p>
           <a href={props.github}>
             <img
@@ -24,7 +25,6 @@ function Projects(props) {
             />
           </a>
         </p>
-        <p id="topics">({props.topics})</p>
       </div>
     </div>
   );

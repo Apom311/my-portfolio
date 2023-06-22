@@ -24,6 +24,7 @@ function Footer() {
           className="icon"
         />
       </a>
+      <p id="footnotes">Built with React</p>
     </div>
   );
 }

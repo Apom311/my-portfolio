@@ -17,7 +17,8 @@ code {
   --gold: #f2c57c;
   --berry: #9c528b;
   --pine: #1f271b;
-  --turquoise: #50d8d7;
+  /* --turquoise: #50d8d7; */
+  --turquoise: darkturquoise;
   --pale: #c0e8f9;
 }
 
@@ -36,6 +37,7 @@ p {
   font-weight: bolder;
   background-color: var(--pale);
   text-align: center;
+  display: inline-block;
 }
 
 h1 {
@@ -44,6 +46,7 @@ h1 {
   color: var(--berry);
   font-weight: bolder;
   background-color: var(--pale);
+  display: inline-block;
 }
 
 .header {
@@ -81,16 +84,17 @@ h1 {
 }
 
 .cards {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   justify-content: space-between;
   margin: 5px;
+  margin-right: 50px;
   max-width: fit-content;
   max-height: fit-content;
 }
 
 .card {
-  display: flex;
+  display: contents;
   flex-direction: column;
   max-width: 100%;
   max-height: 100%;
@@ -149,6 +153,7 @@ h1 {
   font-size: small;
   font-style: italic;
   color: var(--pine);
+  display: inherit;
 }
 
 #card-title {
@@ -249,4 +254,12 @@ h1 {
 #content-wrap {
   position: relative;
   min-height: 100vh;
+}
+
+#footnotes {
+  color: whitesmoke;
+}
+
+.title {
+  display: inherit;
 }

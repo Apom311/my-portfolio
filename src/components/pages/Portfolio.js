@@ -15,9 +15,9 @@ function Portfolio() {
               key={project.id}
               image={`${project.image}`}
               name={project.name}
+              topics={project.topics}
               github={project.github}
               deploy={project.deploy}
-              topics={project.topics}
             />
           ))}
         </div>
