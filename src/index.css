@@ -46,7 +46,7 @@ h1 {
   color: var(--berry);
   font-weight: bolder;
   background-color: var(--pale);
-  display: inline-block;
+  display: flow-root;
 }
 
 .header {
