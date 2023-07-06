@@ -4,7 +4,9 @@ function Projects(props) {
   return (
     <div className="project cards">
       <div className="img-container card">
-        <img alt={props.name} src={props.image} />
+        <a href={props.deploy}>
+          <img alt={props.name} src={props.image} />
+        </a>
       </div>
       <div className="content">
         <p className="title">{props.name}</p>
